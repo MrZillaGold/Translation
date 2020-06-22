@@ -25,6 +25,9 @@
       "success": "Пользователь <@!{0}> заблокирован.",
       "alreadyBanned": "Пользователь <@!{0}> уже заблокирован!"
     },
+    "colors": {
+      "description": "Форматирование текста Minecraft"
+    },
     "fact": {
       "description": "Minecraft факт",
       "fact": "Факт",

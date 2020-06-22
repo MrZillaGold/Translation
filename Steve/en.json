@@ -25,6 +25,9 @@
       "success": "User <@!{0}> is blocked.",
       "alreadyBanned": "User <@!{0}> alredy blocked."
     },
+    "colors": {
+      "description": "Minecraft text formatting"
+    },
     "fact": {
       "description": "Minecraft fact",
       "fact": "Fact ",
