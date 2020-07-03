@@ -141,14 +141,15 @@
       "original": "Original",
       "skinType": "Skin type",
       "cape": "Cape",
-      "capes": "Capeq",
+      "capes": "Capes",
       "and": "&",
       "missing": "Absent",
       "notExist": "Player with nickname `{0}` does not exist!",
       "infoNotAvailable": "Player information is not available! Try it later.",
       "apiOffline": "An error has occurred on the server with information! Try it later.",
       "slim": "Slim",
-      "classic": "Classic"
+      "classic": "Classic",
+      "giveHead": "Commands for give head"
     },
     "status": {
       "description": "Status of Minecraft services",
