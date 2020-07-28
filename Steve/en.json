@@ -1,5 +1,5 @@
 {
-  "authors": null,
+  "authors": [615968095584125039],
   "name": "English",
   "core": {
     "banned": "Your bot account is banned! You cannot use the bot's functionality.",
@@ -8,14 +8,14 @@
     "permission": ["right", "rights", "rights"],
     "cooldown": "You can use this command again with **{0} {1}**!",
     "seconds": ["sec", "seconds", "seconds"],
-    "dontGivenArgs": "Command is not given the right argument!",
+    "dontGivenArgs": "Invalid Argument! Please try again.",
     "usage": "Use:",
     "invalidId": "Passed argument is not a user ID!",
     "supportServer": "Support server",
     "installBot": "Install bot on your server",
     "vk": "VK",
     "error": "An error has occurred! Try later.",
-    "invalidNickname": "Wrong player nickname!",
+    "invalidNickname": "Invalid player nickname! Please try again.",
     "nicknamePattern": "Nickname can only contain **Latin letters**, **figures** and the symbol **\"_\"**.",
     "nicknameLength": "Nickname must contain **2-16** characters!"
   },
@@ -51,14 +51,14 @@
       "usage": "Use:",
       "commandNotExist": "Command `{0}` does not exist!",
       "availableCommands": "Available commands:",
-      "description": "Whole list of available commands.\nFor information about any available command, use:",
+      "description": "List of available commands.\nFor information about any available command, use:",
       "commandName": "Command name"
     },
     "hypixel": {
       "description": "Hypixel Statistics",
       "playerName": "<Player nickname>",
       "loader": "Loading player information `{0}`",
-      "notJoined": "Player `{0}` never login to **Hypixel**!",
+      "notJoined": "Player `{0}` has never logged into to **Hypixel**!",
       "basicInfo": "Basic information",
       "status": "Status",
       "online": "Online",
@@ -105,7 +105,7 @@
       "first": "First",
       "notExist": "Player with nickname `{0}` does not exist!",
       "infoNotAvailable": "Player information is not available! Try it later.",
-      "apiOffline": "An error has occurred on the server with information! Try it later."
+      "apiOffline": "An error has occurred on the API server! Please try again later."
     },
     "pardon": {
       "userId": "<User-ID / Mention>",
@@ -123,7 +123,7 @@
       "ping": "Ping",
       "version": "Server version",
       "core": "Server core",
-      "infoNotAvailable": "Server information `{0}` is not available! It's probably off.",
+      "infoNotAvailable": "Server information `{0}` is not available! It may be offline.",
       "invalidIp": "Wrong IP address! Check if it is correct and try again."
     },
     "prefix": {
@@ -145,15 +145,15 @@
       "and": "&",
       "missing": "Absent",
       "notExist": "Player with nickname `{0}` does not exist!",
-      "infoNotAvailable": "Player information is not available! Try it later.",
-      "apiOffline": "An error has occurred on the server with information! Try it later.",
+      "infoNotAvailable": "Player information is not available! Please try again later.",
+      "apiOffline": "An error has occurred on the API server! Please try again later.",
       "slim": "Slim",
       "classic": "Classic",
       "giveHead": "Commands for give head"
     },
     "status": {
       "description": "Status of Minecraft services",
-      "infoNotAvailable": "Service status information is not available! Try it later.",
+      "infoNotAvailable": "Service status information is not available! Please try again later.",
       "average": "Average score",
       "minecraft.net": "Minecraft.net",
       "session.minecraft.net": "Minecraft Sessions",
