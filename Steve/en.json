@@ -5,7 +5,7 @@
     "banned": "Your bot account is banned! You cannot use the bot's functionality.",
     "adminAccess": "This command is only available to bot administrators!",
     "notHavePermissions": "You do not have {0}: {1} on the server to use this command!",
-    "permission": ["right", "rights", "rights"],
+    "permission": ["permission", "permissions", "permissions"],
     "cooldown": "You can use this command again with **{0} {1}**!",
     "seconds": ["sec", "seconds", "seconds"],
     "dontGivenArgs": "Invalid Argument! Please try again.",
