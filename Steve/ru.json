@@ -178,6 +178,11 @@
       "machineTranslation": "Машинный перевод",
       "success": "Язык установлен на `{0}`!",
       "invalidLangCode": "Неверный код языка!"
+    },
+    "random": {
+      "description": "Случайные скины Minecraft",
+      "loading": "Загрузка скинов",
+      "notAvailable": "Скины недоступны. Попробуйте позже."
     }
   }
 }

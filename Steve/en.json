@@ -23,7 +23,7 @@
     "ban": {
       "userId": "<User-ID / Mention>",
       "success": "User <@!{0}> is blocked.",
-      "alreadyBanned": "User <@!{0}> alredy blocked."
+      "alreadyBanned": "User <@!{0}> already blocked."
     },
     "colors": {
       "description": "Minecraft text formatting"
@@ -178,6 +178,11 @@
       "machineTranslation": "Machine translation",
       "success": "Language is set to `{0}`!",
       "invalidLangCode": "Wrong language code!"
+    },
+    "random": {
+      "description": "Random Minecraft skins",
+      "loading": "Loading skins",
+      "notAvailable": "Skins are not available. Please try again later."
     }
   }
 }
