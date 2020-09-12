@@ -149,7 +149,8 @@
       "apiOffline": "An error has occurred on the API server! Please try again later.",
       "slim": "Slim",
       "classic": "Classic",
-      "giveHead": "Commands for give head"
+      "giveHead": "Commands for give head",
+      "rating": "Rating"
     },
     "status": {
       "description": "Status of Minecraft services",
