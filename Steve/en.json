@@ -150,7 +150,11 @@
       "slim": "Slim",
       "classic": "Classic",
       "giveHead": "Commands for give head",
-      "rating": "Rating"
+      "rating": "Rating",
+      "skinTransformation": "Skin transformation",
+      "transformationTip": "Use reactions to select the type of transformation you want.",
+      "waitTransformationOutput": "Wait for the result of the previous transformation before transforming the skin again!",
+      "transformationError": "An error occurred while transforming the skin. Please try again later."
     },
     "status": {
       "description": "Status of Minecraft services",
