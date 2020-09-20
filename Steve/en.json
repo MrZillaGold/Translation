@@ -17,7 +17,7 @@
     "error": "An error has occurred! Try later.",
     "invalidNickname": "Invalid player nickname! Please try again.",
     "nicknamePattern": "Nickname can only contain **Latin letters**, **figures** and the symbol **\"_\"**.",
-    "nicknameLength": "Nickname must contain **2-16** characters!"
+    "nicknameLength": "Nickname must contain **1-16** characters!"
   },
   "commands": {
     "ban": {
