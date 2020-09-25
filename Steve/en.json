@@ -26,7 +26,32 @@
       "alreadyBanned": "User <@!{0}> already blocked."
     },
     "colors": {
-      "description": "Minecraft text formatting"
+      "description": "Minecraft text formatting",
+      "colors": "Colors",
+      "black": "Black",
+      "dark_blue": "Dark Blue",
+      "dark_green": "Dark Green",
+      "dark_aqua": "Dark Aqua",
+      "dark_red": "Dark Red",
+      "dark_purple": "Dark Purple",
+      "gold": "Gold",
+      "gray": "Gray",
+      "dark_gray": "Dark Gray",
+      "blue": "Blue",
+      "green": "Green",
+      "aqua": "Aqua",
+      "red": "Red",
+      "light_purple": "Light Purple",
+      "yellow": "Yellow",
+      "white": "White",
+      "markdown": "Markdown",
+      "reset": "Reset",
+      "obfuscated": "Obfuscated",
+      "bold": "**Bold**",
+      "strikethrough": "~~Strikethrough~~",
+      "underlined": "__Underlined__",
+      "italic": "*Italic*",
+      "image": "https://cdn.discordapp.com/attachments/716035408877846528/759069970302238723/en_colors.png"
     },
     "fact": {
       "description": "Minecraft fact",
@@ -182,7 +207,8 @@
       "translators": "Translators",
       "machineTranslation": "Machine translation",
       "success": "Language is set to `{0}`!",
-      "invalidLangCode": "Wrong language code!"
+      "invalidLangCode": "Wrong language code!",
+      "currentLanguage": "Current language"
     },
     "random": {
       "description": "Random Minecraft skins",

@@ -26,7 +26,32 @@
       "alreadyBanned": "Пользователь <@!{0}> уже заблокирован!"
     },
     "colors": {
-      "description": "Форматирование текста Minecraft"
+      "description": "Форматирование текста Minecraft",
+      "colors": "Цвета",
+      "black": "Чёрный",
+      "dark_blue": "Тёмно-синий",
+      "dark_green": "Тёмно-зелёный",
+      "dark_aqua": "Тёмно-голубой",
+      "dark_red": "Тёмно-красный",
+      "dark_purple": "Тёмно-фиолетовый",
+      "gold": "Золотой",
+      "gray": "Серый",
+      "dark_gray": "Тёмно-серый",
+      "blue": "Синий",
+      "green": "Зелёный",
+      "aqua": "Голубой",
+      "red": "Красный",
+      "light_purple": "Фиолетовый",
+      "yellow": "Жёлтый",
+      "white": "Белый",
+      "markdown": "Разметка",
+      "reset": "Сброс",
+      "obfuscated": "Случайный",
+      "bold": "**Жирный**",
+      "strikethrough": "~~Зачёркнутый~~",
+      "underlined": "__Подчёркнутый__",
+      "italic": "*Курсив*",
+      "image": "https://media.discordapp.net/attachments/716035408877846528/759066146203893850/ru_colors.png"
     },
     "fact": {
       "description": "Minecraft факт",
@@ -182,7 +207,8 @@
       "translators": "Переводчики",
       "machineTranslation": "Машинный перевод",
       "success": "Язык установлен на `{0}`!",
-      "invalidLangCode": "Неверный код языка!"
+      "invalidLangCode": "Неверный код языка!",
+      "currentLanguage": "Текущий язык"
     },
     "random": {
       "description": "Случайные скины Minecraft",
