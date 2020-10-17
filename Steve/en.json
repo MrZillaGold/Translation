@@ -17,7 +17,14 @@
     "error": "An error has occurred! Try later.",
     "invalidNickname": "Invalid player nickname! Please try again.",
     "nicknamePattern": "Nickname can only contain **Latin letters**, **figures** and the symbol **\"_\"**.",
-    "nicknameLength": "Nickname must contain **1-16** characters!"
+    "nicknameLength": "Nickname must contain **1-16** characters!",
+    "serverNotExist": "Server does not exist.",
+    "notOnServer": "Bot is not on the server.",
+    "invalidID": "ID can only consist of numbers and its length must be from 2-18 characters.",
+    "errorGetID": "Error `{0}` occurred while getting server information.",
+    "ban": "Ban",
+    "yes": "Yes",
+    "no": "No"
   },
   "commands": {
     "ban": {
@@ -75,7 +82,7 @@
       "command": "Command",
       "usage": "Use:",
       "commandNotExist": "Command `{0}` does not exist!",
-      "availableCommands": "Available commands:",
+      "help": "Help",
       "description": "List of available commands.\nFor information about any available command, use:",
       "commandName": "Command name"
     },
@@ -214,6 +221,19 @@
       "description": "Random Minecraft skins",
       "loading": "Loading skins",
       "notAvailable": "Skins are not available. Please try again later."
+    },
+    "serverinfo": {
+      "lang": "Language",
+      "prefix": "Prefix",
+      "shard": "Shard",
+      "premium": "Premium"
+    },
+    "premium": {
+      "notPassed": "Premium status value was not passed.",
+      "hasPremium": "Guild already has a premium status.",
+      "notHavePremium": "Guild did not have a premium status.",
+      "givenPremium": "Guild has been given premium status! Commands cooldown has been halved.",
+      "removedPremium": "Guild has been removed premium status."
     }
   }
 }
