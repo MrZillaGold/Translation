@@ -2,22 +2,22 @@
   "authors": [615968095584125039],
   "name": "English",
   "core": {
-    "banned": "Your bot account is banned! You cannot use the bot's functionality.",
+    "userBanned": "Your bot account is banned! You cannot use the bot's functionality.",
+    "guildBanned": "Guild is banned! You cannot use the bot's functionality in this Guild.",
     "adminAccess": "This command is only available to bot administrators!",
     "notHavePermissions": "You do not have {0}: {1} on the server to use this command!",
     "permission": ["permission", "permissions", "permissions"],
-    "cooldown": "You can use this command again with **{0} {1}**!",
+    "cooldown": "You can use this command again with **{0}**!",
     "seconds": ["sec", "seconds", "seconds"],
     "dontGivenArgs": "Invalid Argument! Please try again.",
     "usage": "Use:",
-    "invalidId": "Passed argument is not a user ID!",
+    "invalidResourceType": "Invalid resource type! Available types: {0}",
+    "invalidResourceId": "Resource does not exist, or the bot does not have access to it!",
     "supportServer": "Support server",
     "installBot": "Install bot on your server",
     "vk": "VK",
     "error": "An error has occurred! Try later.",
-    "invalidNickname": "Invalid player nickname! Please try again.",
-    "nicknamePattern": "Nickname can only contain **Latin letters**, **figures** and the symbol **\"_\"**.",
-    "nicknameLength": "Nickname must contain **1-16** characters!",
+    "nicknamePattern": "Nickname can contain Latin characters, numbers and symbol \"_\", and must not be longer than 16 characters.",
     "serverNotExist": "Server does not exist.",
     "notOnServer": "Bot is not on the server.",
     "invalidID": "ID can only consist of numbers and its length must be from 2-18 characters.",
@@ -28,9 +28,10 @@
   },
   "commands": {
     "ban": {
-      "userId": "<User-ID / Mention>",
-      "success": "User <@!{0}> is blocked.",
-      "alreadyBanned": "User <@!{0}> already blocked."
+      "resourceType": "Resource type",
+      "resourceId": "<Resource-ID / Mention>",
+      "userSuccess": "User <@!{0}> is banned.",
+      "guildSuccess": "Guild **{0}** is banned."
     },
     "colors": {
       "description": "Minecraft text formatting",
@@ -74,7 +75,7 @@
         "text": "Time to Farm!"
       },
       "loader": "Generating an achievement",
-      "generatedAchievement": "Generated achievement:",
+      "generatedAchievement": "Generated achievement",
       "requested": "Requested:"
     },
     "help": {
@@ -140,9 +141,8 @@
       "apiOffline": "An error has occurred on the API server! Please try again later."
     },
     "pardon": {
-      "userId": "<User-ID / Mention>",
-      "success": "User <@!{0}> is unblocked.",
-      "notBanned": "User <@!{0}> was not blocked."
+      "userSuccess": "User <@!{0}> is unbanned.",
+      "guildSuccess": "Guild **{0}** is unbanned."
     },
     "ping": {
       "description": "Server information",
@@ -156,13 +156,16 @@
       "version": "Server version",
       "core": "Server core",
       "infoNotAvailable": "Server information `{0}` is not available! It may be offline.",
-      "invalidIp": "Wrong IP address! Check if it is correct and try again."
+      "invalidIp": "Wrong IP address! Check if it is correct and try again.",
+      "widgetInstalled": "Widget installed! Server status will be updated every 5 minutes.",
+      "widgetLimit": "You cannot add more than **{0}** widgets, delete unnecessary ones and try again.",
+      "widgetList": "Widgets list:",
+      "updated": "Updated"
     },
     "prefix": {
       "description": "Change bot prefix",
       "prefix": "<Prefix>",
-      "length": "Maximum prefix length **5** characters!",
-      "pattern": "The prefix must not contain spaces!",
+      "pattern": "The prefix must not contain spaces and must not be longer than **5** characters!",
       "success": "Bot prefix has been changed to `{0}`"
     },
     "skin": {
@@ -226,13 +229,12 @@
     "serverinfo": {
       "lang": "Language",
       "prefix": "Prefix",
+      "widgets": "Widgets",
       "shard": "Shard",
       "premium": "Premium"
     },
     "premium": {
-      "notPassed": "Premium status value was not passed.",
-      "hasPremium": "Guild already has a premium status.",
-      "notHavePremium": "Guild did not have a premium status.",
+      "value": "<Premium value>",
       "givenPremium": "Guild has been given premium status! Commands cooldown has been halved.",
       "removedPremium": "Guild has been removed premium status."
     }
