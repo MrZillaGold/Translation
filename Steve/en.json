@@ -24,7 +24,8 @@
     "errorGetID": "Error `{0}` occurred while getting server information.",
     "ban": "Ban",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "hours": ["hour", "hours", "hours"]
   },
   "commands": {
     "ban": {
@@ -61,11 +62,6 @@
       "italic": "*Italic*",
       "image": "https://cdn.discordapp.com/attachments/716035408877846528/759069970302238723/en_colors.png"
     },
-    "fact": {
-      "description": "Minecraft fact",
-      "fact": "Fact ",
-      "tip": "Use the reaction to get a new fact"
-    },
     "generator": {
       "description": "Achievement Generator",
       "header": "Title",
@@ -89,7 +85,7 @@
     },
     "hypixel": {
       "description": "Hypixel Statistics",
-      "playerName": "<Player nickname>",
+      "playerName": "<Player nickname / UUID>",
       "loader": "Loading player information `{0}`",
       "notJoined": "Player `{0}` has never logged into to **Hypixel**!",
       "basicInfo": "Basic information",
@@ -136,7 +132,7 @@
     },
     "names": {
       "description": "Nickname history",
-      "playerName": "<Player nickname>",
+      "playerName": "<Player nickname / UUID>",
       "loader": "Loading player information `{0}`",
       "first": "First",
       "notExist": "Player with nickname `{0}` does not exist!",
@@ -163,7 +159,12 @@
       "widgetInstalled": "Widget installed! Server status will be updated every 5 minutes.",
       "widgetLimit": "You cannot add more than **{0}** widgets, delete unnecessary ones and try again.",
       "widgetList": "Widgets list:",
-      "updated": "Updated"
+      "updated": "Updated",
+      "all": "All time",
+      "today": "Today",
+      "yesterday": "Yesterday",
+      "playersRating": "{0} players rating",
+      "topNotAvailable": "Statistics for the selected period are not available. Try later."
     },
     "prefix": {
       "description": "Change bot prefix",
@@ -173,7 +174,7 @@
     },
     "skin": {
       "description": "Player skin",
-      "playerName": "<Player nickname>",
+      "playerName": "<Player nickname / UUID>",
       "loader": "Loading player information `{0}`",
       "install": "Install on Minecraft.net",
       "original": "Original",
