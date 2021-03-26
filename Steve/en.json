@@ -25,7 +25,8 @@
     "ban": "Ban",
     "yes": "Yes",
     "no": "No",
-    "hours": ["hour", "hours", "hours"]
+    "hours": ["hour", "hours", "hours"],
+    "commandResponse": "Command response"
   },
   "commands": {
     "ban": {
@@ -80,7 +81,8 @@
       "usage": "Usage:",
       "commandNotExist": "Command `{0}` does not exist!",
       "help": "Help",
-      "description": "List of available commands.\nFor information about any available command, use:",
+      "description": "List of available commands",
+      "tip": "For information about any available command, use:",
       "commandName": "Command name"
     },
     "hypixel": {
@@ -119,7 +121,7 @@
       "apiOffline": "Players' information and statistics are not available at the moment. Try again later."
     },
     "invite": {
-      "link": "Link to invite a bot to your server"
+      "description": "Link to invite Steve to your server"
     },
     "metrics": {
       "metrics": "Metric:",
@@ -222,7 +224,7 @@
     },
     "lang": {
       "description": "Change bot language",
-      "instruction": "In order to change the bot language, send:",
+      "instruction": "In order to change the bot language, use:",
       "langCode": "<Language code>",
       "availableLang": "Available languages:",
       "improveLang": "Suggest or improve an existing translation",
@@ -238,6 +240,8 @@
       "notAvailable": "Skins are not available. Please try again later."
     },
     "serverinfo": {
+      "description": "Discord guild information",
+      "serverId": "<Guild ID>",
       "lang": "Language",
       "prefix": "Prefix",
       "widgets": "Widgets",
