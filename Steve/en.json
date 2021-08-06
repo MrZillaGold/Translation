@@ -203,7 +203,9 @@
             "today": "Today",
             "yesterday": "Yesterday",
             "playersRating": "{0} players rating",
-            "topNotAvailable": "Statistics for the selected period are not available. Please try again later."
+            "topNotAvailable": "Statistics for the selected period are not available. Please try again later.",
+            "widget": "Create widget",
+            "stats": "Players statistics"
         },
         "servers": {
             "description": "Random Minecraft servers",
